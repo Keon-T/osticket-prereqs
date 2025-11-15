@@ -30,22 +30,20 @@
 <img src="https://i.imgur.com/peGURiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a virtual machine then connect to remote desktop with the IP address from the virtual machine to install all dependencies for OS ticket system
+Create virtual machine install all dependencies in azure windows 10,4 vcpus named osticket-vm as username,labuser with password, osticketpassword1! using it log in remote desktop and open files of dependencies and download folder called "osticket-installation-files"
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/2oeV96Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Install CGI which is a dependency that OS ticket needs for part of the web server that is located in worldwide web services 
-</p>
+To enable IIS in windows with (CGI) open computer menu and go to the control panel ein programs tab click on (turn windows features on or off) and check internet information services web browser to expand it inside worldwide services and install (CGI) dependency</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/zGec0e8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</p>Register PHP from within IIS to make web server aware of the existence of PHP on the computer
-
+Registering (PHP) from within IIS making the web server aware of the existence of PHP on the computer in php manager click register new PHP version and binary executable for PHP after registing and restarting web server reload IIS Install osTicket v1.15.8
 
 <br /># osticket-prereqs
